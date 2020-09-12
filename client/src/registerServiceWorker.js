@@ -84,7 +84,9 @@ function checkValidServiceWorker(swUrl) {
           registration.unregister().then(() => {
             window.location.reload();
           });
+          
         });
+        
       } else {
         // Service worker found. Proceed as normal.
         registerValidSW(swUrl);
