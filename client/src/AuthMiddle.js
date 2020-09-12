@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axioApi from './axioConfig';
 
+
 let $this;
 const AuthMiddlewareHOC = (PassedComponent) => {
     return class AuthMiddleware extends Component{
